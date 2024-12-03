@@ -1,5 +1,6 @@
 # Compiled class file
 *.class
+target/
 
 # Log file
 *.log
@@ -22,3 +23,20 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+## for IDEA
+.muse
+.mvn
+.idea
+*.iml
+.gitignore
+
+# SkyWalking
+skywalking-agent/
+*\dependency-reduced-pom.xml
+oap-server/*/target/*
+
+# SkyWalking-UI
+/skywalking-ui/node_modules/
+/package-lock.json
+/oap-server/oal-grammar/gen/
